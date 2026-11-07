@@ -1,0 +1,815 @@
+{
+  "freeCardsPerSubject": 30,
+  "freeRatio": 0.334,
+  "freeMin": 10,
+  "allProductID": "kaozheng.unlock.all",
+  "families": [
+    {
+      "id": "boki",
+      "theme": "boki",
+      "name": "日本商工会議所",
+      "tag": "日商簿記 · 会计",
+      "note": "簿記 3→2→1 级递进；另有日商PC検定",
+      "subjects": [
+        {
+          "id": "B3",
+          "name": "簿記 3級",
+          "jp": "日商簿記検定 3級",
+          "level": 1,
+          "short": "3級",
+          "chipColor": "e8577a",
+          "chipColorDark": "f07893"
+        },
+        {
+          "id": "B2",
+          "name": "簿記 2級",
+          "jp": "日商簿記検定 2級",
+          "level": 2,
+          "short": "2級",
+          "chipColor": "3a7be8",
+          "chipColorDark": "6b9cf2"
+        },
+        {
+          "id": "B1",
+          "name": "簿記 1級",
+          "jp": "日商簿記検定 1級",
+          "level": 3,
+          "short": "1級",
+          "chipColor": "8a5ae0",
+          "chipColorDark": "a888ee"
+        },
+        {
+          "id": "PCBUN",
+          "name": "日商PC 文書作成",
+          "jp": "日商PC検定 文書作成",
+          "level": 1,
+          "short": "PC文書"
+        },
+        {
+          "id": "PCDAT",
+          "name": "日商PC データ活用",
+          "jp": "日商PC検定 データ活用",
+          "level": 1,
+          "short": "PCデータ"
+        },
+        {
+          "id": "PCPRE",
+          "name": "日商PC プレゼン資料作成",
+          "jp": "日商PC検定 プレゼン資料作成",
+          "level": 1,
+          "short": "PCプレゼン"
+        }
+      ]
+    },
+    {
+      "id": "ipa",
+      "theme": "it",
+      "name": "IPA 情報処理推進機構",
+      "tag": "国家考试 · IT",
+      "note": "IP→SG/FE→AP→SC 与高度试验，高度的科目A-1 与 AP 同范围",
+      "subjects": [
+        {
+          "id": "IP",
+          "name": "ITパスポート",
+          "jp": "IP · 入门国家考试",
+          "level": 1,
+          "short": "IP"
+        },
+        {
+          "id": "SG",
+          "name": "信息安全管理",
+          "jp": "情報セキュリティマネジメント",
+          "level": 2,
+          "short": "SG"
+        },
+        {
+          "id": "FE",
+          "name": "基本信息技术者",
+          "jp": "基本情報技術者 FE",
+          "level": 2,
+          "short": "FE"
+        },
+        {
+          "id": "AP",
+          "name": "应用信息技术者",
+          "jp": "応用情報技術者 AP",
+          "level": 3,
+          "short": "AP"
+        },
+        {
+          "id": "SC",
+          "name": "信息安全支援士",
+          "jp": "情報処理安全確保支援士 SC",
+          "level": 4,
+          "short": "SC"
+        },
+        {
+          "id": "NW",
+          "name": "网络专家",
+          "jp": "ネットワークスペシャリスト NW",
+          "level": 4,
+          "short": "NW"
+        },
+        {
+          "id": "DB",
+          "name": "数据库专家",
+          "jp": "データベーススペシャリスト DB",
+          "level": 4,
+          "short": "DB"
+        },
+        {
+          "id": "ES",
+          "name": "嵌入式系统专家",
+          "jp": "エンベデッドシステムスペシャリスト ES",
+          "level": 4,
+          "short": "ES"
+        },
+        {
+          "id": "SM",
+          "name": "IT 服务经理",
+          "jp": "ITサービスマネージャ SM",
+          "level": 4,
+          "short": "SM"
+        },
+        {
+          "id": "SA",
+          "name": "系统架构师",
+          "jp": "システムアーキテクト SA",
+          "level": 4,
+          "short": "SA"
+        },
+        {
+          "id": "ST",
+          "name": "IT 战略师",
+          "jp": "ITストラテジスト ST",
+          "level": 4,
+          "short": "ST"
+        },
+        {
+          "id": "PM",
+          "name": "项目经理",
+          "jp": "プロジェクトマネージャ PM",
+          "level": 4,
+          "short": "PM"
+        },
+        {
+          "id": "AU",
+          "name": "系统审计师",
+          "jp": "システム監査技術者 AU",
+          "level": 4,
+          "short": "AU"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "theme": "it",
+      "name": "AWS",
+      "tag": "云计算认证",
+      "note": "Foundational→Associate→Professional 递进",
+      "subjects": [
+        {
+          "id": "CLF",
+          "name": "AWS Cloud Practitioner",
+          "jp": "CLF-C02",
+          "level": 1,
+          "short": "CLF"
+        },
+        {
+          "id": "AIF",
+          "name": "AWS AI Practitioner",
+          "jp": "AIF-C01 · Foundational",
+          "level": 1,
+          "short": "AIF"
+        },
+        {
+          "id": "SAA",
+          "name": "AWS Solutions Architect",
+          "jp": "SAA-C03 · Associate",
+          "level": 2,
+          "short": "SAA"
+        },
+        {
+          "id": "DVA",
+          "name": "AWS Developer",
+          "jp": "DVA-C03 · Associate",
+          "level": 2,
+          "short": "DVA"
+        },
+        {
+          "id": "SOA",
+          "name": "AWS CloudOps Engineer",
+          "jp": "SOA · Associate",
+          "level": 2,
+          "short": "CloudOps"
+        },
+        {
+          "id": "DEA",
+          "name": "AWS Data Engineer",
+          "jp": "DEA-C01 · Associate",
+          "level": 2,
+          "short": "DEA"
+        },
+        {
+          "id": "MLA",
+          "name": "AWS ML Engineer",
+          "jp": "MLA · Associate",
+          "level": 2,
+          "short": "MLA"
+        },
+        {
+          "id": "SAP",
+          "name": "AWS SA Professional",
+          "jp": "SAP-C03 · Professional",
+          "level": 3,
+          "short": "SAP"
+        },
+        {
+          "id": "DOP",
+          "name": "AWS DevOps Engineer Pro",
+          "jp": "DOP-C02 · Professional",
+          "level": 3,
+          "short": "DOP"
+        },
+        {
+          "id": "AIP",
+          "name": "AWS GenAI Developer Pro",
+          "jp": "Generative AI Developer · Professional",
+          "level": 3,
+          "short": "GenAI Pro"
+        },
+        {
+          "id": "SCS",
+          "name": "AWS Security Specialty",
+          "jp": "SCS-C03 · Specialty",
+          "level": 3,
+          "short": "SCS"
+        }
+      ]
+    },
+    {
+      "id": "jdla",
+      "theme": "it",
+      "name": "JDLA 日本ディープラーニング協会",
+      "tag": "AI · 深度学习",
+      "note": "G検定 → E資格；另有生成 AI 小测验",
+      "subjects": [
+        {
+          "id": "G",
+          "name": "G検定",
+          "jp": "JDLA ジェネラリスト検定",
+          "level": 1,
+          "short": "G検定"
+        },
+        {
+          "id": "GAT",
+          "name": "Generative AI Test",
+          "jp": "JDLA · 生成AIの基礎",
+          "level": 1,
+          "short": "GenAI Test"
+        },
+        {
+          "id": "E",
+          "name": "E資格",
+          "jp": "JDLA エンジニア資格",
+          "level": 2,
+          "short": "E資格"
+        }
+      ]
+    },
+    {
+      "id": "msft",
+      "theme": "it",
+      "name": "Microsoft",
+      "tag": "Azure · 云计算认证",
+      "note": "Azure 入门，和 AWS 很多概念一一对应",
+      "subjects": [
+        {
+          "id": "AZ900",
+          "name": "Azure Fundamentals",
+          "jp": "AZ-900",
+          "level": 1,
+          "short": "AZ-900"
+        },
+        {
+          "id": "AI901",
+          "name": "Azure AI Fundamentals",
+          "jp": "AI-901",
+          "level": 1,
+          "short": "AI-901"
+        },
+        {
+          "id": "SC900",
+          "name": "Security Fundamentals",
+          "jp": "SC-900",
+          "level": 1,
+          "short": "SC-900"
+        },
+        {
+          "id": "DP900",
+          "name": "Data Fundamentals",
+          "jp": "DP-900",
+          "level": 1,
+          "short": "DP-900"
+        },
+        {
+          "id": "AZ104",
+          "name": "Azure Administrator",
+          "jp": "AZ-104 · Associate",
+          "level": 2,
+          "short": "AZ-104"
+        },
+        {
+          "id": "AI103",
+          "name": "Azure AI App & Agent Developer",
+          "jp": "AI-103 · Associate",
+          "level": 2,
+          "short": "AI-103"
+        },
+        {
+          "id": "AZ305",
+          "name": "Azure Solutions Architect",
+          "jp": "AZ-305 · Expert",
+          "level": 3,
+          "short": "AZ-305"
+        }
+      ]
+    },
+    {
+      "id": "cisco",
+      "theme": "it",
+      "name": "Cisco",
+      "tag": "网络工程师认证",
+      "note": "CCST → CCNA → CCNP → CCIE 递进",
+      "subjects": [
+        {
+          "id": "CCNA",
+          "name": "CCNA",
+          "jp": "Cisco 200-301",
+          "level": 2,
+          "short": "CCNA"
+        },
+        {
+          "id": "CCST",
+          "name": "CCST Networking",
+          "jp": "Cisco 入门认证",
+          "level": 1,
+          "short": "CCST"
+        },
+        {
+          "id": "CCNP",
+          "name": "CCNP Enterprise",
+          "jp": "Cisco ENCOR + 専門試験",
+          "level": 3,
+          "short": "CCNP"
+        },
+        {
+          "id": "CCIE",
+          "name": "CCIE Enterprise",
+          "jp": "Cisco 最上位認定",
+          "level": 4,
+          "short": "CCIE"
+        }
+      ]
+    },
+    {
+      "id": "lpij",
+      "theme": "it",
+      "name": "LPI-Japan",
+      "tag": "Linux 技术者认证",
+      "note": "LinuC 1→2→3→4；另有 HTML5、OSS-DB（PostgreSQL）",
+      "subjects": [
+        {
+          "id": "LC1",
+          "name": "LinuC 1",
+          "jp": "LinuC レベル1 · 101/102",
+          "level": 1,
+          "short": "LinuC1"
+        },
+        {
+          "id": "H5L1",
+          "name": "HTML5 Lv1",
+          "jp": "HTML5 プロフェッショナル認定",
+          "level": 1,
+          "short": "HTML5"
+        },
+        {
+          "id": "LC2",
+          "name": "LinuC 2",
+          "jp": "LinuC レベル2 · 201/202",
+          "level": 2,
+          "short": "LinuC2"
+        },
+        {
+          "id": "LC3PS",
+          "name": "LinuC 3 平台专家",
+          "jp": "LinuC-3 プラットフォームスペシャリスト",
+          "level": 3,
+          "short": "LinuC3 PS"
+        },
+        {
+          "id": "LC3SS",
+          "name": "LinuC 3 安全专家",
+          "jp": "LinuC-3 セキュリティスペシャリスト",
+          "level": 3,
+          "short": "LinuC3 SS"
+        },
+        {
+          "id": "LC4",
+          "name": "LinuC 4 系统架构师",
+          "jp": "LinuC-4 システムアーキテクト",
+          "level": 4,
+          "short": "LinuC4"
+        },
+        {
+          "id": "H5L2",
+          "name": "HTML5 Lv2",
+          "jp": "HTML5 プロフェッショナル認定",
+          "level": 2,
+          "short": "HTML5 Lv2"
+        },
+        {
+          "id": "OSDS",
+          "name": "OSS-DB Silver",
+          "jp": "PostgreSQL 技術者認定",
+          "level": 2,
+          "short": "OSS-DB S"
+        },
+        {
+          "id": "OSDG",
+          "name": "OSS-DB Gold",
+          "jp": "PostgreSQL 技術者認定",
+          "level": 3,
+          "short": "OSS-DB G"
+        }
+      ]
+    },
+    {
+      "id": "guga",
+      "theme": "it",
+      "name": "GUGA 生成AI活用普及協会",
+      "tag": "生成 AI 素养",
+      "note": "面向所有职种的生成 AI 入门资格",
+      "subjects": [
+        {
+          "id": "GAIP",
+          "name": "生成AIパスポート",
+          "jp": "GUGA · 生成AI活用普及協会",
+          "level": 1,
+          "short": "生成AIパス"
+        }
+      ]
+    },
+    {
+      "id": "gcp",
+      "theme": "it",
+      "name": "Google Cloud",
+      "tag": "云计算 · AI 认证",
+      "note": "Foundational→Associate→Professional 递进",
+      "subjects": [
+        {
+          "id": "CDL",
+          "name": "Cloud Digital Leader",
+          "jp": "Google Cloud · Foundational",
+          "level": 1,
+          "short": "CDL"
+        },
+        {
+          "id": "GAL",
+          "name": "Generative AI Leader",
+          "jp": "Google Cloud · Foundational",
+          "level": 1,
+          "short": "GAIL"
+        },
+        {
+          "id": "ACE",
+          "name": "Associate Cloud Engineer",
+          "jp": "Google Cloud · Associate",
+          "level": 2,
+          "short": "ACE"
+        },
+        {
+          "id": "ADP",
+          "name": "Associate Data Practitioner",
+          "jp": "Google Cloud · Associate",
+          "level": 2,
+          "short": "ADP"
+        },
+        {
+          "id": "GWA",
+          "name": "Workspace Administrator",
+          "jp": "Google Workspace · Associate",
+          "level": 2,
+          "short": "GWA"
+        },
+        {
+          "id": "PCA",
+          "name": "Professional Cloud Architect",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PCA"
+        },
+        {
+          "id": "PDE",
+          "name": "Professional Data Engineer",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PDE"
+        },
+        {
+          "id": "PCD",
+          "name": "Professional Cloud Developer",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PCD"
+        },
+        {
+          "id": "PDOE",
+          "name": "Professional DevOps Engineer",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PDOE"
+        },
+        {
+          "id": "PCSE",
+          "name": "Professional Security Engineer",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PCSE"
+        },
+        {
+          "id": "PCNE",
+          "name": "Professional Network Engineer",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PCNE"
+        },
+        {
+          "id": "PMLE",
+          "name": "Professional ML Engineer",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PMLE"
+        },
+        {
+          "id": "PDBE",
+          "name": "Professional Database Engineer",
+          "jp": "Google Cloud · Professional",
+          "level": 3,
+          "short": "PDBE"
+        }
+      ]
+    },
+    {
+      "id": "dss",
+      "theme": "it",
+      "name": "データサイエンティスト協会",
+      "tag": "数据科学素养",
+      "note": "统计、数据工程、业务三方面的基础",
+      "subjects": [
+        {
+          "id": "DS",
+          "name": "DS検定",
+          "jp": "データサイエンティスト検定 リテラシー",
+          "level": 1,
+          "short": "DS検定"
+        }
+      ]
+    },
+    {
+      "id": "waca",
+      "theme": "it",
+      "name": "ウェブ解析士協会",
+      "tag": "网站分析 · 网络营销",
+      "note": "网络营销与网站分析的实务资格",
+      "subjects": [
+        {
+          "id": "WACA",
+          "name": "ウェブ解析士",
+          "jp": "WACA 認定ウェブ解析士",
+          "level": 1,
+          "short": "ウェブ解析"
+        }
+      ]
+    },
+    {
+      "id": "pyeng",
+      "theme": "it",
+      "name": "Pythonエンジニア育成推進協会",
+      "tag": "Python 编程",
+      "note": "Python 文法与标准库",
+      "subjects": [
+        {
+          "id": "PY3",
+          "name": "Python 3 基础",
+          "jp": "Python 3 エンジニア認定基礎",
+          "level": 1,
+          "short": "Python3"
+        },
+        {
+          "id": "PYDA",
+          "name": "Python 3 数据分析",
+          "jp": "Python 3 エンジニア認定データ分析",
+          "level": 2,
+          "short": "Pyデータ分析"
+        },
+        {
+          "id": "PYPR",
+          "name": "Python 3 实践",
+          "jp": "Python 3 エンジニア認定実践",
+          "level": 2,
+          "short": "Py実践"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "theme": "it",
+      "name": "Oracle",
+      "tag": "Java · 数据库认证",
+      "note": "Java Silver→Gold，ORACLE MASTER Bronze→Silver",
+      "subjects": [
+        {
+          "id": "JAVS",
+          "name": "Java Silver",
+          "jp": "Oracle Certified Java Programmer",
+          "level": 1,
+          "short": "Java Silver"
+        },
+        {
+          "id": "JAVG",
+          "name": "Java Gold",
+          "jp": "Oracle Certified Java Programmer",
+          "level": 2,
+          "short": "Java Gold"
+        },
+        {
+          "id": "ORMB",
+          "name": "ORACLE MASTER Bronze",
+          "jp": "Oracle Database",
+          "level": 1,
+          "short": "OM Bronze"
+        },
+        {
+          "id": "ORMS",
+          "name": "ORACLE MASTER Silver",
+          "jp": "Oracle Database",
+          "level": 2,
+          "short": "OM Silver"
+        }
+      ]
+    },
+    {
+      "id": "toukei",
+      "theme": "it",
+      "name": "統計質保証推進協会",
+      "tag": "统计检定",
+      "note": "3 级→2 级→准 1 级递进",
+      "subjects": [
+        {
+          "id": "ST3",
+          "name": "统计检定 3 级",
+          "jp": "統計検定 3級",
+          "level": 1,
+          "short": "統計3級"
+        },
+        {
+          "id": "ST2",
+          "name": "统计检定 2 级",
+          "jp": "統計検定 2級",
+          "level": 2,
+          "short": "統計2級"
+        },
+        {
+          "id": "STP1",
+          "name": "统计检定准 1 级",
+          "jp": "統計検定 準1級",
+          "level": 3,
+          "short": "統計準1級"
+        }
+      ]
+    },
+    {
+      "id": "odyssey",
+      "theme": "it",
+      "name": "オデッセイ（MOS）",
+      "tag": "Office 操作认证",
+      "note": "Word・Excel・PowerPoint 的功能名词",
+      "subjects": [
+        {
+          "id": "MOSE",
+          "name": "MOS Excel",
+          "jp": "Microsoft Office Specialist",
+          "level": 1,
+          "short": "MOS Excel"
+        },
+        {
+          "id": "MOSW",
+          "name": "MOS Word",
+          "jp": "Microsoft Office Specialist",
+          "level": 1,
+          "short": "MOS Word"
+        },
+        {
+          "id": "MOSP",
+          "name": "MOS PowerPoint",
+          "jp": "Microsoft Office Specialist",
+          "level": 1,
+          "short": "MOS PPT"
+        }
+      ]
+    },
+    {
+      "id": "jken",
+      "theme": "it",
+      "name": "職業教育・キャリア教育財団",
+      "tag": "情报检定 J検",
+      "note": "信息活用基础",
+      "subjects": [
+        {
+          "id": "JK",
+          "name": "J検 情報活用",
+          "jp": "情報検定 情報活用試験",
+          "level": 1,
+          "short": "J検"
+        }
+      ]
+    },
+    {
+      "id": "certify",
+      "theme": "it",
+      "name": "サーティファイ",
+      "tag": "Web 制作 · 网络营销",
+      "note": "Web 制作与网络营销的入门资格",
+      "subjects": [
+        {
+          "id": "WCR",
+          "name": "Webクリエイター",
+          "jp": "Webクリエイター能力認定試験",
+          "level": 1,
+          "short": "Webクリエイター"
+        },
+        {
+          "id": "NMK",
+          "name": "ネットマーケティング検定",
+          "jp": "サーティファイ",
+          "level": 1,
+          "short": "ネットマーケ"
+        }
+      ]
+    },
+    {
+      "id": "gmkt",
+      "theme": "it",
+      "name": "Google（Skillshop）",
+      "tag": "广告 · 分析认证",
+      "note": "免费在线认证",
+      "subjects": [
+        {
+          "id": "GADS",
+          "name": "Google 広告認定",
+          "jp": "Google Skillshop",
+          "level": 1,
+          "short": "Google広告"
+        },
+        {
+          "id": "GAIQ",
+          "name": "Google アナリティクス認定",
+          "jp": "Google Skillshop",
+          "level": 1,
+          "short": "GA認定"
+        }
+      ]
+    },
+    {
+      "id": "comptia",
+      "theme": "it",
+      "name": "CompTIA",
+      "tag": "国际 IT 认证",
+      "note": "A+ → Network+ / Security+",
+      "subjects": [
+        {
+          "id": "CTA",
+          "name": "CompTIA A+",
+          "jp": "CompTIA",
+          "level": 1,
+          "short": "A+"
+        },
+        {
+          "id": "CTN",
+          "name": "CompTIA Network+",
+          "jp": "CompTIA",
+          "level": 2,
+          "short": "Network+"
+        },
+        {
+          "id": "CTS",
+          "name": "CompTIA Security+",
+          "jp": "CompTIA",
+          "level": 2,
+          "short": "Security+"
+        }
+      ]
+    }
+  ]
+}
