@@ -1,0 +1,90 @@
+[
+ {
+  "date": "2026-11-05",
+  "version": "",
+  "type": "制作",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "",
+  "notes": "IT 五门名词闪卡：共通16、ITパスポート37、情報セキュリティマネジメント40、基本情報技術者51、AWS Cloud Practitioner 44、G検定52"
+ },
+ {
+  "date": "2026-11-05",
+  "version": "",
+  "type": "制作",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "",
+  "notes": "日商簿記闪卡：3級32、2級30、1級26"
+ },
+ {
+  "date": "2026-11-07",
+  "version": "",
+  "type": "制作",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "",
+  "notes": "新增科目第1批 AP/SC/SAA/AIF/AZ-900/CCNA/LinuC1：+226 张，合计 554 张"
+ },
+ {
+  "date": "2026-11-07",
+  "version": "",
+  "type": "制作",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "",
+  "notes": "第2批 入门与AI（生成AIパスポート、Generative AI Test、DS検定等 11 门）：+153 张，合计 707 张"
+ },
+ {
+  "date": "2026-11-07",
+  "version": "",
+  "type": "制作",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "",
+  "notes": "第3批 IPA 高度（NW/DB/ES/SM/SA/ST/PM/AU）：+78 张，合计 785 张"
+ },
+ {
+  "date": "2026-11-07",
+  "version": "",
+  "type": "制作",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "",
+  "notes": "第4-7批 + 补充：云 Associate/Professional、Linux/DB/编程/统计、日商PC/MOS 等，合计 90 门科目、944 张"
+ },
+ {
+  "date": "2026-11-07",
+  "version": "2",
+  "type": "发布",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "",
+  "notes": "发布卡片内容 v2：90 门科目、944 张卡（首发内容）"
+ },
+ {
+  "date": "2026-11-10",
+  "version": "2",
+  "type": "初始备份",
+  "target": "",
+  "name": "",
+  "field": "",
+  "before": "",
+  "after": "90 门科目、944 张卡",
+  "notes": "建立 Excel 备份，此后每次更新自动记录差异"
+ }
+]
