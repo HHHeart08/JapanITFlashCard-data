@@ -2,6 +2,7 @@
   "freeCardsPerSubject": 30,
   "freeRatio": 0.334,
   "freeMin": 10,
+  "freeAllBelow": 15,
   "allProductID": "kaozheng.unlock.all",
   "families": [
     {
